@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-color: #333;
+    padding: 20px;
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0e0c0c;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color:rgb(3, 42, 91);
+}
+
+p {
+    color: rgb(7, 76, 135);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(); Replace with the actual path to your image file */
+    background-color: #c7f9cc;
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(7, 8, 9); /* Set text color to be visible against the background */
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+
+/* Add additional styling for other elements on your page */
+
+/* header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+} */
+
+.avatar-container {
+    width: 150px; /* Adjust the size of the circle */
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%; /* Makes the container circular */
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.avatar-container img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: 100%;
+    object-fit: cover; /* Maintains aspect ratio and covers the container */
+}
+
+.header-content {
+    text-align: left; /* Adjust as needed */
+}
+
+#contact {
+    color: rgb(124, 17, 26);
+}
+#contact h2 {
+    color: rgb(168, 19, 19);
+}
+input,
+textarea {border: 1px solid #a11111;
+}
+
+/* styles.css */
+
+body {
+    /* Add this style to ensure button is positioned correctly */
+    position: relative;
+}
+
+button.cylindrical {
+    width: 100px; /* Adjust width as needed */
+    height: 40px; /* Maintain the height or adjust as needed */
+    border-radius: 20px; /* Adjust border-radius for a rounded shape */
+    border: none;
+    color: #130b0b;
+    position: absolute; /* Position the button absolutely */
+    top: 10px;
+    right: 10px; /* Position the button to the right */
+    cursor: pointer;
+}
+
+/* styles.css */
+
+body {
+    background-color: var(--bg-color); /* Use CSS variable for background color */
+    color: var(--text-color); /* Use CSS variable for text color */
+}
+
+button.cylindrical {
+    width: 100px; /* Adjust width as needed */
+    height: 40px; /* Maintain the height or adjust as needed */
+    border-radius: 20px; /* Adjust border-radius for a rounded shape */
+    border: none;
+    color: #fff;
+   ;
+}
+
+
+
+  
